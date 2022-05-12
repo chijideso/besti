@@ -1,0 +1,84 @@
+body{
+    background-image:  url(./logo-iphone.jfif);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+#header-img{
+padding-right: 500px;
+height: 80px;
+
+}
+.link{
+    color: rgb(56, 62, 73);
+    text-decoration: none;
+    background-color: rgb(215, 218, 233);
+    width: 50px;
+    height: fit-content;
+}
+#main{
+    text-align: center;
+    display: block;
+}
+#section1{
+    text-align: center;
+    display: flex;
+    font-size: medium;
+    padding-left: 200px;
+    margin-top: 50px;
+    flex-direction: column;
+    /* position: relative; */
+
+}
+
+#video{
+    text-align: center;
+    display: block;
+}
+#section2 header{
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* flex-direction: column; */
+    /* position: relative; */
+    height: 50px;
+    /* width: 30px; */
+}
+.icon-image{
+    height: 50px;
+
+}
+input, label, select {
+    width: 50px;
+    /* align-items: center; */
+    text-align: center;
+    /* height: 5px; */
+    
+    
+}
+
+#section2{
+    display: flex;
+    justify-content: space-evenly;
+
+    /* flex-direction: row; */
+    margin-top: 100px;
+    /* background-color: var(--white); */
+    /* padding-right: 500px; */
+}
+input, select{
+    width: 200px;
+    border: 3px solid rgb(54, 57, 63); 
+}
+#submit{
+    width: fit-content;
+    background-color: rgb(94, 96, 102);
+    border-radius: 5px;
+}
+#header, .h2{
+    font-style: italic;
+    direction: initial;
+}

@@ -19,6 +19,8 @@ height: 80px;
     background-color: rgb(215, 218, 233);
     width: 50px;
     height: fit-content;
+    padding: 0 10px;
+    border-radius: 10px;
 }
 #main{
     text-align: center;
